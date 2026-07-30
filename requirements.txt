@@ -1,0 +1,15 @@
+# El taller NO usa librerias externas.
+#
+# Todo esta implementado con la libreria estandar de Python 3.10+:
+#   - random, heapq, collections, itertools, math, pathlib, unittest
+#
+# En particular:
+#   - Dijkstra usa heapq solo como cola de prioridad; la logica del algoritmo
+#     (relajacion de aristas y reconstruccion de la ruta) esta escrita a mano.
+#   - El evaluador de expresiones booleanas y Quine-McCluskey son propios
+#     (no se usa sympy ni eval()).
+#   - El simulador de qubit usa los numeros complejos nativos de Python
+#     (no se usa numpy ni qiskit).
+#
+# Por eso este archivo esta vacio de dependencias: basta con
+#     python3 --version   ->   3.10 o superior
