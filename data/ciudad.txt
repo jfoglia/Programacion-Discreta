@@ -1,0 +1,18 @@
+# Grafo de prueba: red de transporte (no dirigido, pesos = minutos de viaje)
+# Formato: origen destino peso     (las lineas que empiezan con # se ignoran)
+# 10 vertices, 15 aristas
+Portal      Calle26     4
+Portal      Terminal    7
+Calle26     Museo       3
+Calle26     Centro      6
+Museo       Centro      2
+Museo       Universidad 5
+Museo       Terminal    8
+Centro      Universidad 3
+Centro      Hospital    4
+Universidad Parque      2
+Parque      Hospital    3
+Parque      Estadio     6
+Hospital    Estadio     2
+Terminal    Estadio     5
+Terminal    Vereda      9
